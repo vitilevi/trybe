@@ -47,7 +47,8 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
+  margin: 10px;
   color: black
 }
 
@@ -57,7 +58,7 @@ h3 {
   color: black;
 }
 
-#general-facts, #fun-facts{
+#general-facts, #fun-facts, #video{
   max-width: 800px;
   margin: auto;
   margin-bottom: 15px;
@@ -116,6 +117,13 @@ table {
   font-weight: 700;
 }
 
-#article-facts, #clubs-fun-facts, #eyes-fun-facts {
+#article-facts, #clubs-fun-facts, #eyes-fun-facts, #video-text {
   margin: 10px
+}
+
+.video-container {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
 }
