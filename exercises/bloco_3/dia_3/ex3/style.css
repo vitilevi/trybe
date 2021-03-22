@@ -1,0 +1,19 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover{
+    background-color: cadetblue;
+}
+
+li:active{
+    font-family: sans-serif;
+}
+
+li:list-style {
+    none
+}
+
+ol, ul {
+    list-style-type: none;
+}
