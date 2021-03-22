@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #A0C4FF;
+}
+
+main {
+  max-width: 800px;
+  display: inline;
+  text-align: justify;
+}
+
+a {
+  color: #023047;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0077B6;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#general-facts, #fun-facts{
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#nav ul li {
+  display: inline;
+  margin: 50px;
+  text-align: center;
+}
+
+#nav {
+  text-align: center;
+  margin: 30px 0;
+  background-color: aquamarine;
+  padding: 1px;
+  font-size: 25px;
+}
+
+footer {
+  text-align: center;
+}
+
+.stomatopoda-img {
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.img-format {
+  text-align: center;
+  margin: 20px;
+}
+
+.ref {
+  display: inline-block;
+}
+
+table, tr, td{
+  border: 1px solid black;
+}
+
+table {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.table-header {
+  font-weight: 700;
+}
+
+#article-facts, #clubs-fun-facts, #eyes-fun-facts {
+  margin: 10px
+}
