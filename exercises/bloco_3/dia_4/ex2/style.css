@@ -4,36 +4,57 @@
 }
 
 body {
-  background-color: #A0C4FF;
+  /* background-color: #A0C4FF; */
+  /* background-image: linear-gradient( #00B4D8, #023E8A); */
+  /* background-color: #00B4D8; */
+  background-color: #83C5BE;
+  color: #03045E;
+
 }
 
 main {
   max-width: 800px;
   display: inline;
   text-align: justify;
+  font-family: 'Lato'
+}
+
+header {
+  background-color: #2D6A4F;
 }
 
 a {
-  color: #023047;
+  color: #95D5B2;
   text-decoration: none;
 }
 
-a:hover {
+a:active {
+  color: #03045E;
+}
+
+a:hover{
   color: #0077B6;
 }
 
 h1 {
   text-align: center;
-  margin-top: 5px;
+  padding-top: 5px;
+  font-family: 'Oswald';
+  /* color: #CBC0D3; */
+  color: #1B4332;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: white;
 }
 
 h2 {
   margin-bottom: 5px;
+  color: black
 }
 
 h3 {
   text-align: center;
   margin-bottom: 5px;
+  color: black;
 }
 
 #general-facts, #fun-facts{
@@ -48,18 +69,20 @@ h3 {
   display: inline;
   margin: 50px;
   text-align: center;
+  font-family: 'Lato'
 }
 
 #nav {
   text-align: center;
-  margin: 30px 0;
-  background-color: aquamarine;
-  padding: 1px;
+  margin: 0 0 30px 0;
+  background-color: #1B4332;
+  padding: 5px;
   font-size: 25px;
 }
 
 footer {
   text-align: center;
+  color: black;
 }
 
 .stomatopoda-img {
@@ -75,6 +98,7 @@ footer {
 
 .ref {
   display: inline-block;
+  color: black;
 }
 
 table, tr, td{
