@@ -58,7 +58,7 @@ h3 {
   color: black;
 }
 
-#general-facts, #fun-facts, #video{
+#general-facts, #fun-facts, #video, #references{
   max-width: 800px;
   margin: auto;
   margin-bottom: 15px;
@@ -126,4 +126,18 @@ table {
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+#ol-ref {
+  margin: 10px;
+  margin-left: 45px;
+  font-size: 16px;
+}
+
+#ol-ref a{
+  color: rgb(160 0 0);
+}
+
+#ol-ref a:hover{
+  color: red;
 }
