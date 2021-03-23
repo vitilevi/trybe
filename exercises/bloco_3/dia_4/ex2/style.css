@@ -102,15 +102,29 @@ footer {
   color: black;
 }
 
-table, tr, td{
-  border: 1px solid black;
-}
 
-table {
+
+.style-table {
+  border-collapse: collapse;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   text-align: center;
   width: 60%;
   margin: auto;
   margin-bottom: 40px;
+}
+
+.style-table thead tr{
+  /* border: 1px solid black; */
+  background-color: #009879;
+}
+
+.style-table th, td {
+  padding: 12px 15px;
+}
+
+.style-table tbody {
+  background-color: white;
 }
 
 .table-header {
