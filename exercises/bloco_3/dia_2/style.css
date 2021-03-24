@@ -1,0 +1,32 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: monospace;
+}
+
+p {
+  font-weight: 600;
+  font-size: 3em;
+  font-style: italic;
+  text-align: center;
+}
+
+ul {
+    background-color: palegoldenrod;
+}
+
+body {
+  font-size: 16px;
+}
+
+li {
+  text-align: center;
+  text-decoration: white;
+  font-style:italic;
+  line-height: 2;
+  background-color: black;
+}
+
+.cor {
+    background-color: palevioletred;
+}

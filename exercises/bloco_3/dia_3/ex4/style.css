@@ -1,0 +1,30 @@
+div:hover {
+    border: black solid 5px;
+    background-color: random();
+}
+
+div:nth-of-type(1) {
+    background-color: blue;
+}
+
+div:nth-of-type(2) {
+    background-color: turquoise;
+}
+
+div:nth-of-type(3) {
+    font-size: 30px;
+    background-color: yellow;
+}
+
+div:nth-of-type(4) {
+    background-color: brown;
+}
+
+div:nth-of-type(5) {
+    background-color: lightgreen;
+}
+
+h3:nth-child(odd) {
+    font-style: italic;
+}
+
