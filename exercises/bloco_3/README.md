@@ -1,4 +1,4 @@
-# Introdução à HTML e CSS  
+# Bloco 3 - Introdução à HTML e CSS  
   
 Dia 1 - HTML & CSS - Estruturas de página  
 Dia 2 - HTML & CSS - Primeiros passos em CSS  
