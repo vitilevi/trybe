@@ -24,5 +24,9 @@ switch(lowerChess){
 
   case "rei":
     console.log("Em qualquer direção, em um campo")
+    break
+
+  default:
+    console.log("Erro, peça inválida");
 }
 
