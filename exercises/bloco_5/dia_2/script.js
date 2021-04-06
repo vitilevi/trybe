@@ -20,6 +20,9 @@ let divLeftContent = document.createElement('div');
 divLeftContent.className = 'left-content';
 divMainContent.appendChild(divLeftContent);
 //6 Adicione a tag div com a classe right-content como filho da tag div criada no passo 2;
+let divRightContent = document.createElement('div');
+divRightContent.className = 'right-content';
+divMainContent.appendChild(divRightContent);
 //7 Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do div criado no passo 5;
 //8 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso como valores da lista. Essa lista deve ser filha do div criado no passo 6;
 //9 Adicione 3 tags h3 , todas sendo filhas do div criado no passo 2.
