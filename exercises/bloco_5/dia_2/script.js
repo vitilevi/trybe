@@ -62,3 +62,7 @@ divRightContent.style.margin = 'auto';
 //5 Troque a cor de fundo do elemento pai da div criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
 divCenterContent.parentElement.style.backgroundColor = 'green';
 //6 Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
+let ulTenth = ul.lastChild;
+ul.removeChild(ulTenth);
+let ulNineth = ul.lastChild;
+ul.removeChild(ulNineth);
