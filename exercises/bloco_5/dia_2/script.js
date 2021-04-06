@@ -37,3 +37,21 @@ for (index = 1; index <= 10; index += 1) {
   ul.appendChild(li);
 }
 //9 Adicione 3 tags h3 , todas sendo filhas do div criado no passo 2.-imag
+let firstH = document.createElement('h3');
+let secondH = document.createElement('h3');
+let thirdH = document.createElement('h3');
+firstH.innerText = 'Primeiro H3';
+secondH.innerText = 'Segundo H3';
+thirdH.innerText = 'Terceiro H3';
+divMainContent.appendChild(firstH);
+divMainContent.appendChild(secondH);
+divMainContent.appendChild(thirdH);
+
+
+// Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
+// Adicione a classe title na tag h1 criada;
+// Adicione a classe description nas 3 tags h3 criadas;
+// Remova o div criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild() ;
+// Centralize o div criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto do div ;
+// Troque a cor de fundo do elemento pai da div criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
+// Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
