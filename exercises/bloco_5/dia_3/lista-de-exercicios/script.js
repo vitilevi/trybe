@@ -80,7 +80,6 @@ sextaButton.addEventListener('click', function() {
 
 // 6
 let li = document.getElementsByTagName('li');
-console.log(li);
 for (let index = 9; index < li.length; index += 1) {
   li[index].addEventListener('mouseover', function(event){
     li[index].style.fontSize = '65px';})
@@ -91,13 +90,25 @@ for (let index = 9; index < li.length; index += 1) {
 }
 
 // 7
-const tarefa = document.createElement('span');
+let tarefa = document.createElement('span');
 tarefa.innerText = 'Cozinhar';
 const divTasks = document.querySelector('.my-tasks');
 divTasks.appendChild(tarefa);
 
 // 8
-const legenda = document.createElement('div');
+let legenda = document.createElement('div');
 legenda.className = 'task';
 legenda.style.backgroundColor = '#008000';
 divTasks.appendChild(legenda);
+
+// 9
+const legendaEvent = document.querySelector('.task');
+legenda.addEventListener('click', function(){
+  if (legendaEvent.className != 'task selected') {
+    legendaEvent.className = 'task selected';
+    return
+  } 
+  else {
+    legendaEvent.className = 'task';
+  }
+})
