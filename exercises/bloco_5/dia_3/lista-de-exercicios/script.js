@@ -81,10 +81,8 @@ sextaButton.addEventListener('click', function() {
 // 6
 let li = document.getElementsByTagName('li');
 console.log(li);
-// let dayList = document.getElementsByClassName('.day')
 for (let index = 9; index < li.length; index += 1) {
   li[index].addEventListener('mouseover', function(event){
-    // for (let index = 0; index < li.length; index++) {
     li[index].style.fontSize = '65px';})
 
   li[index].addEventListener('mouseleave', function(){
@@ -93,3 +91,7 @@ for (let index = 9; index < li.length; index += 1) {
 }
 
 // 7
+let tarefa = document.createElement('span');
+tarefa.innerText = 'Cozinhar';
+let divTasks = document.querySelector('.my-tasks');
+divTasks.appendChild(tarefa);
