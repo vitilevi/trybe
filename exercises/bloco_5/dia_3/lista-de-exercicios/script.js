@@ -112,3 +112,20 @@ legenda.addEventListener('click', function(){
     legendaEvent.className = 'task';
   }
 })
+
+// 10
+for (let index = 9; index < li.length; index += 1) {
+  li[index].addEventListener('click', function(event){
+  if (li[index].style.backgroundColor === legenda.style.backgroundColor) {
+    for (let index = 9; index < li.length; index += 1){  
+      event.target.style.backgroundColor = '';
+      event.target.style.color = '';
+    }
+    return;
+  }
+  for (let index = 9; index < li.length; index += 1){  
+    event.target.style.backgroundColor = legenda.style.backgroundColor;
+    event.target.style.color = 'white';
+  }
+  })
+}
