@@ -91,7 +91,13 @@ for (let index = 9; index < li.length; index += 1) {
 }
 
 // 7
-let tarefa = document.createElement('span');
+const tarefa = document.createElement('span');
 tarefa.innerText = 'Cozinhar';
-let divTasks = document.querySelector('.my-tasks');
+const divTasks = document.querySelector('.my-tasks');
 divTasks.appendChild(tarefa);
+
+// 8
+const legenda = document.createElement('div');
+legenda.className = 'task';
+legenda.style.backgroundColor = '#008000';
+divTasks.appendChild(legenda);
