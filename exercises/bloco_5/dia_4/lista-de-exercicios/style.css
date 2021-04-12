@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 5px;
+}
+
+#main-content {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#main-content p{
+  text-align: justify;
+  max-width: 80%;
+  margin: auto;
+}
+
+.menu {
+  margin-top: 10px;
+  text-align: center;
+  width: 80%;
+  display: inline-block;
+}
+
+#background-menu {
+  margin: auto;
+  display: inline-block;
+  border: 5px solid green;
+}
+
+#color-menu {
+  margin: auto;
+  display: inline-block;
+  border: 5px solid green;
+}
+
+#font-size-menu {
+  margin: auto;
+  display: inline-block;
+  border: 5px solid green;
+}
+
+#line-height-menu {
+  margin: auto;
+  display: inline-block;
+  border: 5px solid green;
+}
+
+#font-family-menu {
+  margin: auto;
+  display: inline-block;
+  border: 5px solid green;
+}
+
+.button-background, .button-color, .button-font-size, .button-line-height, .button-font-family {
+  width: 120px;
+  margin: 5px;
+}
+
+#menu-wrapper {
+  text-align: center;
+  margin: auto;
+}
