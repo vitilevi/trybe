@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+<body>
+  <section id='form-wrapper'>
+    <form action="" method="GET">
+      <div id = 'div-fieldset1'>
+        <fieldset>
+          <legend>Dados pessoais</legend>
+          <label for="input-name">Nome: 
+            <input type="text" name="name" maxlength="40" id='input-name'>
+          </label>
+          <br>
+          <label for="input-email">Email: 
+            <input type="email" name="email" maxlength="50"id='input-email'>
+          </label>
+          <br>
+          <label for="input-cpf">Cpf: 
+            <input type="text" name="cpf" maxlength="11" id='input-cpf'>
+          </label>
+          <br>
+          <label for="input-address">Endereço: 
+            <input type="text" name="address" maxlength="200" id='input-address'>
+          </label>
+          <br>
+          <label for="input-state">Estado: 
+            <select name="state" id="input-state"></select>
+          </label>
+          <br>
+          <label for="input-radio1">
+            <input type="radio" name="home" value='casa' id="input-radio1"> Casa
+          </label>
+          <label for="input-radio2"><input type="radio" name="home" value='apartamento' id="input-radio2"> Apartamento</label>
+          <br>
+        </fieldset>
+      </div>
+      <div id = 'div-fieldset2'>
+        <fieldset>
+          <legend>Último emprego</legend>
+          <label for="input-resume">Resumo do currículo:
+            <br>
+            <textarea name="resume" id="input-resume" cols="30" rows="10" maxlength="1000"></textarea>
+          </label>
+          <br>
+          <label for="input-job">Cargo: 
+            <input type="text" name="job" id="input-job" maxlength="40">
+          </label>
+          <br>
+          <label for="input-job-description">Descrição do cargo: 
+            <input type="text" name="job-description" id="input-job-description">
+          </label>
+          <br>
+          <label for="input-job-start">Data de início
+            <input type="text" name='job-start' id='input-job-start' required>
+          </label>
+        </fieldset>
+      </div>
+      <div id = 'button-container'>
+        <button type="submit" id='button-submit'>Enviar</button>
+        <button type="reset" id='button-clear'>Limpar</button>
+      </div>
+    </form>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>
