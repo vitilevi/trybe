@@ -6,7 +6,7 @@ input, textarea, select {
   margin: 5px;
 }
 
-#div-fieldset1, #div-fieldset2, #button-container {
+#div-fieldset1, #div-fieldset2, #button-container, #form-resume {
   width: 50%;
   margin: auto;
 }
