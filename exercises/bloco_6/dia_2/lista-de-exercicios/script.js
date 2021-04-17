@@ -124,6 +124,7 @@ function preventForm(event) {
 }
 
 function init() {
+  const datePick = document.getElementById('input-job-start').DatePickerX.init();
   createEventListeners();
   createStates();
 }
