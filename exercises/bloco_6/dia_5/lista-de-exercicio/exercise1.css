@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: x-large;
+    text-align: justify;
+    margin: 15px;
+  }
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;    
+  }
+
+  figure {
+    margin: 20px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    color: white;
+    background-color: #999;
+    width: 80%;
+    font-size: 1.2em;
+    margin: auto
+  }
+
+  body p {
+    text-align: justify;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  figure {
+    text-align: center;
+  }
+}
