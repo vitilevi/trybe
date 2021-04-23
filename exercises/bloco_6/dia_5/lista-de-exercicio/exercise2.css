@@ -4,3 +4,103 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body {
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+header p {
+  font-size: 2em;
+  text-align: center;
+}
+
+header ul {
+  display: flex;
+  padding: 0;  
+}
+
+header ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+aside {
+  margin: 15px 0;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  text-align: justify;
+}
+
+footer h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 780px) {
+  * {
+    margin: 5px;
+  }
+  
+  header p {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  header nav {
+    display: none;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  body {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+  aside {
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    width: 80%;
+  }
+
+  header p {
+    margin: 10px
+  }
+
+  aside {
+    margin-top: 60px;
+  }
+
+  article div:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aside-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
