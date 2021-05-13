@@ -1,7 +1,7 @@
 # Matriz curricular do curso  
 
 ## Fundamentos do Desenvolvimento Web  
-Bloco 01 - Unix, Bash e Shell Scripts  
+Bloco 01 - Unix e Bash  
 Bloco 02 - Git, Github e Internet  
 Bloco 03 - Introdução à HTML e CSS  
 Bloco 04 - Introdução à JavaScript e Lógica de Programação  
