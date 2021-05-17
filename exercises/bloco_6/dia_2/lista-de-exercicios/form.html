@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./DatePickerX.css">
+  <script src="./DatePickerX.js"></script>
+  <title>Form</title>
+</head>
+<body>
+  <section class='section'>
+    <form action="" method="GET" id = 'form-data'>
+      <h1 class="title is-4">Dados pessoais</h1>
+
+      <div class="field">
+        <label class="label" for="input-name">Nome:</label>
+        <div class="control">
+          <input type="text" class = 'input' name="Name" maxlength="40" id='input-name' required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="input-email">Email:</label>
+        <div class="control">
+          <input type="email" class = 'input' name="Email" maxlength="50"id='input-email' required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label  class="label" for="input-cpf">CPF:</label>
+        <div class="control">
+          <input type="text" class = 'input' name="Cpf" maxlength="11" id='input-cpf' required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="input-address">Endereço:</label>
+        <div class="control">
+          <input type="text" class = 'input' name="Address" maxlength="200" id='input-address' required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="input-state">Estado:</label>
+        <div class="control">
+          <div class="select">
+            <select name="State" id="input-state" required></select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Moradia:</label>
+        <div class="control">
+          <label class="radio" for="input-radio1">
+            <input type="radio" name="Home" value='Casa' id="input-radio1"> Casa
+          </label>
+          <label class="radio" for="input-radio2">
+            <input type="radio" name="Home" value='Apartamento' id="input-radio2"> Apartamento
+          </label>
+        </div>
+      </div>
+
+      <br>
+
+      <div>
+        <h1 class="title is-4">Último emprego</h1>
+
+        <div class="field">
+          <label class="label" for="input-resume">Resumo do currículo:</label>
+          <div class="control">
+            <textarea name="Resume" class="textarea" id="input-resume" maxlength="1000" required></textarea>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="input-job">Cargo:</label>
+          <div class="control">
+           <input type="text" class="input" name="Job-role" id="input-job" maxlength="40" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="input-job-description">Descrição do cargo:</label>
+          <div class="control">
+            <input type="text" class="input" name="Job-description" id="input-job-description" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="input-job-start">Data de início</label>
+          <div class="control">
+            <input type="text" class="input" name='Job-start' id='input-job-start' maxlength="10" pattern="(\d{2}\/\d{2}\/\d{4})" placeholder="dd/mm/aaaa" required>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div id = 'button-container'>
+        <button type="submit" class="button is-success" id='button-submit'>Enviar</button>
+        <button type="reset" class="button is-danger" id='button-clear'>Limpar</button>
+      </div>
+    </form>
+    <div class="section" id = 'form-resume'></div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>
