@@ -13,4 +13,4 @@ const obj3 = {
   description: 'My Description',
 };
 
-module.exports = obj1, obj2, obj3;
+module.exports = {obj1, obj2, obj3};

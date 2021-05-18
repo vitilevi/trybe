@@ -1,1 +1,2 @@
-const sum = require('./ex1');
+const { obj1, obj2, obj3 } = require('./ex5');
+
