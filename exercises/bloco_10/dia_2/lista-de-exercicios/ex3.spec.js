@@ -1,5 +1,5 @@
 const { describe, it, expect } = require('@jest/globals');
-const getUserName = require('./ex2 e 3 ');
+const getUserName = require('./ex2-e-3 ');
 
 describe('Testa a função getUserName', () => {
   it('Testa o resultado da função getUserName para o caso em que o usuário é encontrado', async () => {
