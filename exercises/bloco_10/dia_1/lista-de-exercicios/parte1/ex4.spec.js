@@ -2,7 +2,7 @@ const { it, expect } = require('@jest/globals');
 const myFizzBuzz = require('./ex4');
 
 describe('Testa a função FizzBuzz', () => {
-  it('Faça uma chamada com um número divisível por 3 e 5 e verifique se o retorno é o esperado', () => {
+  test('Faça uma chamada com um número divisível por 3 e 5 e verifique se o retorno é o esperado', () => {
     expect(myFizzBuzz(15)).toEqual('fizzbuzz');
   });
 
