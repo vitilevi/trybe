@@ -7,4 +7,4 @@ describe('Testa os objetos', () => {
     expect(obj1).not.toEqual(obj3);
     expect(obj2).not.toEqual(obj3);
   })
-})
+});

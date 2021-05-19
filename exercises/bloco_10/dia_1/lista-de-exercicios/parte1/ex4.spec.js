@@ -21,4 +21,4 @@ describe('Testa a função FizzBuzz', () => {
   it('Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado', () => {
     expect(myFizzBuzz('2')).toEqual(false);
   });
-})
+});

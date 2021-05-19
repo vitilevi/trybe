@@ -35,4 +35,3 @@ describe('Testa a função techList', () => {
     expect(techList([], 'Lucas')).toBe('Vazio!');
   });
 });
-

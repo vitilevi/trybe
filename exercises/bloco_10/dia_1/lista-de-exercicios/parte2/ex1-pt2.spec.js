@@ -32,4 +32,4 @@ describe('Testa as funções decode e encode', () => {
   it('Testa se a string que é retornada pelas funções têm o mesmo número de caracteres que a string passada como parâmetro.', () => {
     expect(encode('hi there').length).toEqual(8);
   });
-})
+});
