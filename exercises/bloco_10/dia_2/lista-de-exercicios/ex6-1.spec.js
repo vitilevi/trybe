@@ -1,5 +1,3 @@
-const { get } = require("lodash");
-
 const Animals = [
   { name: 'Dorminhoco', age: 1, type: 'Dog' },
   { name: 'Soneca', age: 2, type: 'Dog' },
