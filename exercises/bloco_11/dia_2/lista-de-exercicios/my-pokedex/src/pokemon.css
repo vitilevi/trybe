@@ -1,0 +1,25 @@
+.main-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin: 15px;
+  padding: 10px;
+  flex: 1 1 250px;
+  justify-content: center;
+  align-items: center;
+}
