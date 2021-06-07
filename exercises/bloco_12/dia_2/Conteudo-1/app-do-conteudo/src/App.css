@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form,
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35vh;
+}
+
+form > *,
+fieldset > * {
+  margin: 5px;
+}
