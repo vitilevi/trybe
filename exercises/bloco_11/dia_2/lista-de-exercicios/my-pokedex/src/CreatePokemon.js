@@ -1,6 +1,10 @@
 import React from 'react';
 
 class CreatePokemon extends React.Component {
+constructor(props) {
+  super(props)
+}
+
   render() { 
     const poke = this.props.pokemon
     return ( 
