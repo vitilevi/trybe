@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.forms {
+  width: 30%;
+  margin: auto;
+}
+
+fieldset > * {
+  display: flex;
+  /* justify-content: flex-start; */
+  margin: 10px;
+  /* align-items: stretch; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  justify-content: center;
+}
