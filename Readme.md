@@ -1,4 +1,4 @@
-## Repositório de exercícios do Curso de Desenvolvimento Web da Trybe T11 03/21
+## Repositório de exercícios do Curso de Desenvolvimento Web da Trybe T11 03/21 🚀
   
 Neste repositório, disponibilizo todos os exercícios em que resolvi durante a formação. Ele está organizado de forma a separar cada um dos módulos, blocos, dias, conteúdos e listas de exercícios propostos durante o curso. 😎
   
