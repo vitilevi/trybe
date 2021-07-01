@@ -4,7 +4,7 @@ Neste repositório, disponibilizo todos os exercícios em que resolvi durante a 
   
 ---
   
-# Matriz curricular do curso  
+# Matriz curricular  
 
 ## Fundamentos do Desenvolvimento Web  
 Bloco 01 - Unix e Bash  
