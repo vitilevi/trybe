@@ -16,4 +16,4 @@ const fibonacci = (n) => {
 
 const selectedNumber = rl.question('Quantos números da sequencia de fibonacci você quer? ');
 
-console.log(fibonacci(selectedNumber));
+console.log(fibonacci(6));
