@@ -2,11 +2,7 @@ const connection = require('./connection');
 
 const add = async (name, brand) => {
   try {
-    const [result] = await connection.query(
-      `INSERT INTO products (name, brand) VALUES (?, ?);`,
-      [name, brand]
-    );
-
+    const [result] = await connection.query(`INSERT INTO products (name, brand) VALUES (?, ?);`, [name, brand]);
     return [{ id: result.insertId, name, brand }];
   } catch {
     return null;
