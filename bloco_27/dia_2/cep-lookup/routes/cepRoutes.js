@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const cepController = require('../controllers/cepControllers');
-const errors = require('../controllers/errors');
+const errors = require('../middlewares/errors');
 
 router.post('/', cepController.postCep);
 router.get('/:cep', cepController.getCep);
