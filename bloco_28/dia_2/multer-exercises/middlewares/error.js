@@ -1,5 +1,5 @@
 module.exports = (err, _req, res, _next) => {
-  console.log('aqui');
+  // console.log('aqui');
   if (err.isJoi) {
     return res.status(422).json({
       error: { message: err.details[0].message },

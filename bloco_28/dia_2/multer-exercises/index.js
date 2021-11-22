@@ -2,6 +2,8 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const multer = require('multer');
+const fs = require('fs');
+const path = require('path');
 
 const { PORT } = process.env;
 
@@ -19,23 +21,31 @@ app.use(
 );
 
 const storage = multer.diskStorage({
-  destination: (req, file, callback) => callback(null, 'uploads'),
+  destination: (req, file, callback) => callback(null, path.resolve('uploads')),
 
   filename: (req, file, callback) => callback(null, `${Date.now()}-${file.originalname}`),
 });
 
+const fileExistes = (fileName) => {
+  const files = fs.readdirSync(path.resolve('uploads'));
+  return files.some((file) => file.includes(fileName));
+};
+
 const upload = multer({
   storage,
   fileFilter: (req, file, callback) => {
-    const splitted = file.mimetype.split('/');
-    const extension = splitted[splitted.length - 1];
-    if (extension !== 'png') {
-      callback(null, false);
+    if (file.mimetype !== 'image/png') {
       const error = new Error('Extension must be `png`');
       error.statusCode = 403;
       return callback(error);
     }
-      callback(null, true);
+
+    if (fileExistes(file.originalname)) {
+      const error = new Error('File already exists');
+      error.statusCode = 409;
+      return callback(error);
+    }
+    callback(null, true);
   },
 });
 
